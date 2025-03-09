@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.long-container{
+    max-width: 380px;
+    width: 380px;
+    height : 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    padding: 8px;
+    margin-top: 20px;
+}
+.long-thumbnail{
+    width: 380px;
+    height: 196px;
+    border-radius: 16px;
+}
+.cardFooter{
+    max-width: 338px;
+    max-height: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    max-width: 40px;
+    max-height: 100%;
+}
+.logo img{
+    width: 32px;
+    mix-blend-mode: multiply;
+    margin-bottom: 30px;
+    border-radius: 16px;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    width: 306px;
+    height: 97px;
+    flex-direction: column;
+    padding:8px 0 10px 4px;
+}
+.description a{
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 4px;
+}
+.description span{
+    color: rgb(48, 45, 45);
+}
+.view-time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(48, 45, 45);
+}
+.dot{
+    padding: 0 4px 0 4px;
+}
